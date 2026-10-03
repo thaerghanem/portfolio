@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+body:has([data-page="home"]) a[data-nav-link][href="/"],
+body:has([data-page="about"]) a[data-nav-link][href="/about"],
+body:has([data-page="projects"]) a[data-nav-link][href="/projects"],
+body:has([data-page="skills"]) a[data-nav-link][href="/skills"],
+body:has([data-page="contact"]) a[data-nav-link][href="/contact"] {
+  color: #38bdf8;
+  box-shadow: inset 0 -2px 0 #38bdf8;
+}
