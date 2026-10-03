@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { FaGithub } from "react-icons/fa";
+import { FaGithub, FaWhatsapp } from "react-icons/fa";
 import { FiMail, FiInstagram } from "react-icons/fi";
 import { TbCode } from "react-icons/tb";
 
@@ -22,6 +22,12 @@ const socialLinks = [
         label: "Instagram",
         href: "https://www.instagram.com/thaerghanem/",
         icon: FiInstagram,
+        external: true,
+    },
+    {
+        label: "WhatsApp",
+        href: "https://wa.me/963936098828",
+        icon: FaWhatsapp,
         external: true,
     },
     {

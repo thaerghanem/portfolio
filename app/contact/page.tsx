@@ -6,6 +6,7 @@ import {
     FiMail,
     FiInstagram,
 } from "react-icons/fi";
+import { FaWhatsapp } from "react-icons/fa";
 
 export const metadata: Metadata = {
     title: "Contact | Thaer Ghanem",
@@ -18,6 +19,7 @@ const contact = {
     email: "thaerghanem6@gmail.com",
     github: "https://github.com/thaerghanem",
     instagram: "https://www.instagram.com/thaerghanem/",
+    whatsapp: "963936098828",
 };
 
 const channels = [
@@ -35,6 +37,14 @@ const channels = [
         label: "View GitHub",
         href: contact.github,
         icon: FiGithub,
+        external: true,
+    },
+    {
+        title: "WhatsApp",
+        description: "Have a project in mind? Let's chat on WhatsApp.",
+        label: "Chat on WhatsApp",
+        href: `https://wa.me/${contact.whatsapp}`,
+        icon: FaWhatsapp,
         external: true,
     },
     {
@@ -82,7 +92,7 @@ export default function ContactPage() {
                 </div>
 
                 {/* Contact channels */}
-                <ul className="mx-auto mt-12 grid max-w-6xl grid-cols-1 gap-5 md:grid-cols-3">
+                <ul className="mx-auto mt-12 grid max-w-7xl grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4">
                     {channels.map(
                         ({ title, description, label, href, icon: Icon, external }) => (
                             <li key={title}>
