@@ -132,7 +132,7 @@ export default function Hero() {
 
                     <h1
                         id="hero-title"
-                        className="text-[clamp(3rem,7.5vw,6.5rem)] font-black leading-[0.95] tracking-[-0.045em]"
+                        className="text-[clamp(2.75rem,6vw,5rem)] font-black leading-[0.95] tracking-[-0.045em]"
                     >
                         <span className="block">Software</span>
 
@@ -140,15 +140,13 @@ export default function Hero() {
                             Engineer
                         </span>
                     </h1>
-
-                    <p className="mt-5 flex flex-wrap items-center gap-x-3 gap-y-1 text-lg font-bold sm:text-2xl">
+                    <p className="mt-5 flex flex-wrap items-center gap-x-3 gap-y-2 text-2xl font-bold sm:text-3xl lg:text-4xl">
                         <span>Flutter</span>
                         <span className="text-sky-400">•</span>
                         <span>Next.js</span>
                         <span className="text-sky-400">•</span>
                         <span>Node.js Developer</span>
                     </p>
-
                     <p className="mt-4 max-w-lg text-base leading-relaxed text-slate-300 sm:text-xl">
                         Building modern mobile and web experiences with clean code and
                         practical solutions.
