@@ -52,7 +52,7 @@ export default function About() {
                 {/* Introduction */}
                 <p className="mt-4 max-w-5xl text-base leading-relaxed text-slate-300 sm:text-lg sm:leading-8">
                     I&apos;m Thaer Ghanem, a Software Engineer passionate about
-                    building modern mobile and web applications. I specialize in
+                    building modern mobile and web applications and backend systems with database management. I specialize in
                     Flutter for mobile development, Next.js for modern web apps,
                     and Node.js for backend solutions. I enjoy turning ideas into
                     real products with clean code, modern design, and great user
