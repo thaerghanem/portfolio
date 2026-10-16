@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Thaer Ghanem | ثائر غانم",
+  title: "Thaer Ghanem | Software Engineer",
   description: "Flutter, Next.js and Node.js Developer",
 };
 
