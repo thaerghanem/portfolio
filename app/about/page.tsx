@@ -4,7 +4,7 @@ import Skills from "@/components/skills";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-    title: "About | Thaer Ghanem",
+    title: "About",
     description:
         "Get to know Thaer Ghanem, a web developer passionate about programming, creative problem-solving, and building thoughtful digital experiences.",
 };

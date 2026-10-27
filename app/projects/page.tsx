@@ -6,7 +6,7 @@ import { getCachedProjects } from "@/lib/cached-projects";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-    title: "Projects | Thaer Ghanem",
+    title: "Projects",
     description:
         "Explore Thaer Ghanem's portfolio of projects, featuring web development work, creative experiments, and practical solutions built with code.",
 };

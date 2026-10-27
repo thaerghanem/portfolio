@@ -9,7 +9,7 @@ import {
 import { FaWhatsapp } from "react-icons/fa";
 
 export const metadata: Metadata = {
-    title: "Contact | Thaer Ghanem",
+    title: "Contact",
     description:
         "Get in touch with Thaer Ghanem to discuss your next mobile or web project.",
 };
