@@ -3,11 +3,10 @@ import Link from "next/link";
 import { Suspense } from "react";
 import { connection } from "next/server";
 import { getCachedProjects } from "@/lib/cached-projects";
-
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-    title: "Projects",
+    title: "Projects | Thaer Ghanem",
     description:
         "Explore Thaer Ghanem's portfolio of projects, featuring web development work, creative experiments, and practical solutions built with code.",
 };

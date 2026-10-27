@@ -14,9 +14,14 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+
 export const metadata: Metadata = {
-  title: "Thaer Ghanem | Software Engineer",
-  description: "Flutter, Next.js and Node.js Developer",
+  title: {
+    default: "Thaer Ghanem | Web Developer",
+    template: "%s | Thaer Ghanem",
+  },
+  description:
+    "Thaer Ghanem's portfolio — exploring web development, creative ideas, and thoughtful digital experiences.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

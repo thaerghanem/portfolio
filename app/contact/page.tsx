@@ -102,7 +102,7 @@ export default function ContactPage() {
                                     rel={external ? "noopener noreferrer" : undefined}
                                     className="group flex h-full flex-col rounded-2xl
                     border border-sky-500/30
-                    bg-gradient-to-br from-[#071e30] to-[#020f1b]
+                    bg-linear-to-br from-[#071e30] to-[#020f1b]
                     p-7
                     motion-safe:transition-all motion-safe:duration-300
                     motion-safe:hover:-translate-y-1
@@ -121,7 +121,7 @@ export default function ContactPage() {
 
                                     <h2 className="mt-6 text-xl font-bold">{title}</h2>
 
-                                    <p className="mt-3 flex-1 whitespace-pre-line break-words text-sm leading-relaxed text-slate-300">
+                                    <p className="mt-3 flex-1 whitespace-pre-line wrap-break-words text-sm leading-relaxed text-slate-300">
                                         {description}
                                     </p>
 
