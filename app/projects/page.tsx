@@ -2,8 +2,15 @@ import Image from "next/image";
 import Link from "next/link";
 import { Suspense } from "react";
 import { connection } from "next/server";
-
 import { getCachedProjects } from "@/lib/cached-projects";
+
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+    title: "Projects",
+    description:
+        "Explore Thaer Ghanem's portfolio of projects, featuring web development work, creative experiments, and practical solutions built with code.",
+};
 
 function ProjectsLoading() {
     return (
@@ -158,7 +165,7 @@ async function ProjectsContent() {
                                         )}
                                     </div>
 
-                                    <h2 className="mt-4 break-words text-2xl font-bold tracking-tight">
+                                    <h2 className="mt-4 wrap-break-words text-2xl font-bold tracking-tight">
                                         <Link
                                             href={detailsUrl}
                                             className="rounded transition-colors hover:text-sky-400
@@ -169,7 +176,7 @@ async function ProjectsContent() {
                                         </Link>
                                     </h2>
                                     <p
-                                        className="mt-3 whitespace-pre-line break-words
+                                        className="mt-3 whitespace-pre-line wrap-break-words
                       text-sm leading-7 text-slate-300"
                                     >
                                         {project.description}
