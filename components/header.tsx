@@ -4,8 +4,10 @@ import MobileMenu from "./mobile-menu";
 const links = [
     { label: "Home", href: "/" },
     { label: "Projects", href: "/projects" },
+    { label: "Certifications", href: "/certications" },
     { label: "About", href: "/about" },
     { label: "Contact", href: "/contact" },
+
 ];
 
 export default function Header() {
