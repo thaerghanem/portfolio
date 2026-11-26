@@ -4,7 +4,7 @@ import Certifications, {
 } from "@/components/certifications";
 
 export const metadata: Metadata = {
-    title: "Certifications | Thaer Ghanem",
+    title: "Certifications",
     description:
         "Explore Thaer Ghanem's certifications in mobile and web development.",
 };
